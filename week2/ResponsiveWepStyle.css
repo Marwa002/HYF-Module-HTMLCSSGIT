@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: small;
+}
+.backgroundimg{
+}
+.section1{
+    background-image: url(https://www.triodos.nl/binaries/content/gallery/tbnl/hero-images/campagnes/net-begonnen/triodos-website---headerafbeelding-2---3840-x-1536.jpg/triodos-website---headerafbeelding-2---3840-x-1536.jpg/triodoshippo%3AheroImageFullWidthSmallDesktop);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color:orange;
+    backface-visibility: hidden;
+}
+.section1 div{
+    margin-top: 20%;
+    color: white;
+    text-shadow: 0 0 48px gray;
+}
+.section1 div button{
+    padding: 3%;
+    padding-inline: 6%;
+    border-radius:8px ;
+    border: 2px solid gray;
+}
+.section1 div button:hover{
+    border: 2px solid darkblue;
+}
+.flex-container{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;    
+    flex-direction: column;
+    
+}
+.section3{
+    background-color: #e6f2f5;
+    color: #00006b;
+}
+
+footer{
+    background-color:#00006b;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+.footer-flex nav ul li{
+    list-style: none;
+    margin: 1em; 
+    line-height: 10px;
+}
+ul li{
+    margin: 1em; 
+    line-height: 10px;
+}
+.section{
+    padding: 6% 0%;
+}
+.header-content{
+    flex-direction: row;
+    margin-inline: 3%;
+    align-items: center;
+    margin-top: 2%;   
+    color: rgb(0, 0, 107);
+}
+#logo{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.container1 div{align-items: center;
+margin-top: 5px;    
+}
+.container {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+.container h2{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.container p{
+    margin-bottom: 25px;
+}
+.section2{
+    padding-inline:3% ;
+}
+.list{
+    font-size: 13px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+.list ul li{
+    list-style:circle;
+}
+#buttom{
+    align-self: center;
+    padding: 3%;
+    margin-top: 10%;
+}
+.item1{
+    margin-bottom: 30px;
+}
+.item1 h4{
+    font-size: 13px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.item1 p{
+    font-size: smaller;
+}
+hr{
+    color: blue;
+    width: 100%;
+    margin:5%;
+    height: 1px;
+}
+.footer-flex div p{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.footer-flex{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 5%;
+}   
+.footer-flex div nav ul{
+    list-style:inside;
+}
+select{
+    color: white;
+    background-color:#00006b;
+    padding:2;
+    margin: 2%;
+    width: 90%;
+    font-size: 13px;
+    padding: 2%;
+    border-radius: 8px;
+}
+@media (min-width:1024px){
+    .container{
+        width: 90%;
+    }
+    .container1{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .section1 div h2{
+        font-size: +50px;
+        display: block;
+        position: relative;
+        margin-top: 0%;
+        bottom: 100px;
+
+    }
+    .section1 div p{
+        font-size: +18px;
+    }
+    .flex-container{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .flex-container *+*{
+        margin-left: 4%;
+    }
+    hr{
+        display: none;
+    }
+    .header-content{
+        justify-content: space-between;
+    }
+    .footer-flex{
+        justify-content: space-between;
+    }
+    .footer-flex nav ul li{
+        list-style: none;
+    }
+    .section1 div button{
+        padding: 15px;
+    }
+    select{
+        display: block;
+        width: 30%;
+        position: relative;
+        top: 15px;
+    }
+    .list div h3,ul{
+        font-size: +15px;
+        line-height: 13px;
+    }
+    
+
+}
